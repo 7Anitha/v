@@ -5,18 +5,14 @@ class vowel
 public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
-b=s.next();
-String a[]={'a','e','i','o','u'};
-for(i=0;i<5;i++)
-{
-if(b==a[i])
+char cha=s.next().charAt(0);;
+  if((ch=='a')||(ch=='e')||(ch=='i')||(ch='o')||(ch=='u'))
 {
 System.out.println("vowels");
 }
 else
 {
 System.out.println("consonent");
-}
 }
 }
 }
